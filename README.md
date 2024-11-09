@@ -1,6 +1,6 @@
-# FAI - Social Media Platform
+# FAIHub – Your Social Meeting Point
 
-FAI is a social media platform developed using Python with the Django framework. It utilizes HTML, CSS, JavaScript, Bootstrap, AJAX, and MySQL for a seamless and interactive user experience. This project empowers users to register, create connections, and share content within a vibrant online community.It is a social media platform designed to connect users with each other in a dynamic and interactive online environment. This project provides a range of features that allow users to create profiles, share content, connect with friends, and engage in meaningful interactions.
+FAIHub is a social media platform developed using Python with the Django framework. It utilizes HTML, CSS, JavaScript, Bootstrap, AJAX, and MySQL for a seamless and interactive user experience. This project empowers users to register, create connections, and share content within a vibrant online community.It is a social media platform designed to connect users with each other in a dynamic and interactive online environment. This project provides a range of features that allow users to create profiles, share content, connect with friends, and engage in meaningful interactions.
 
 ## Features
 
@@ -32,19 +32,19 @@ FAI is a social media platform developed using Python with the Django framework.
 
 ## Getting Started
 
-To set up FAI on your local machine using XAMPP and MySQL, follow these steps:
+To set up FAIHub on your local machine using XAMPP and MySQL, follow these steps:
 
 
    
 Setup Database:
-Create a MySQL database in XAMPP named "FAI."
+Create a MySQL database in XAMPP named "FAIHub."
 
 Open settings.py in your Django project and update the DATABASES configuration:
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'FAI',
+        'NAME': 'FAIHub',
         'USER': 'your_mysql_username',
         'PASSWORD': 'your_mysql_password',
         'HOST': 'localhost',
@@ -64,11 +64,11 @@ Run the Application:
 python manage.py runserver
 
 Access the Platform:
-Open your web browser and navigate to http://localhost:8000 to access FAI.
+Open your web browser and navigate to http://localhost:8000 to access FAIHub.
 
 
 Contact
 If you have any questions or suggestions, feel free to reach out to us at [rayanchowdhury07@gmail.com].
 
-Happy connecting on FAI! 🚀
+Happy connecting on FAIHub! 🚀
 
